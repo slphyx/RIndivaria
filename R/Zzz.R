@@ -15,7 +15,8 @@
            } else {
                rClr::clrLoadAssembly(f)
              }
-       }
+     }
+     #load the main dll files
      loadAssembly('TreatWithArtesunate.dll')
      loadAssembly('Parasites.dll')
      loadAssembly('AntimalarialDrug.dll')
