@@ -1,10 +1,10 @@
-Package: indivaria
+Package: RIndivaria
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
+Title: The R version of Indivaria
+Version: 0.0.1
 Author: Sompob Saralamba
-Maintainer: Sompob Saralamba  <sompob@tropmedres.ac>
-Description: More about what it does (maybe more than one line)
+Maintainer: Sompob Saralamba  <saralamba@gmail.com>
+Description: A collection of within host models for the dynamics of malaria parasites in an infected host.
 License: What license is it under?
 Depends: R (>= 3.2.0)
 LazyData: TRUE
