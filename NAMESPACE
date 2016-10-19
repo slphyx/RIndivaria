@@ -1,0 +1,3 @@
+#import("rClr")
+export(Model.NJW1992, Model.SompobPNAS2011)
+#exportPattern("^[[:alpha:]]+")

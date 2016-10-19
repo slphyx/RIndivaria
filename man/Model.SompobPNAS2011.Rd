@@ -1,0 +1,12 @@
+\name{Model.SompobPNAS2011}
+\alias{Model.SompobPNAS2011}
+\title{Model.SompobPNAS2011}
+\usage{
+Model.SompobPNAS2011(...)
+}
+\description{
+Model.SompobPNAS2011(...)
+}
+\examples{
+Model.SompobPNAS2011(...)
+}
