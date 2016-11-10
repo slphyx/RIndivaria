@@ -5,7 +5,7 @@ Version: 0.0.1
 Author: Sompob Saralamba
 Maintainer: Sompob Saralamba  <saralamba@gmail.com>
 Description: A collection of within host models for the dynamics of malaria parasites in an infected host.
-License: What license is it under?
+License: MIT
 Depends: R (>= 3.2.0)
 Imports: rClr (>= 0.7.3)
 LazyData: TRUE
