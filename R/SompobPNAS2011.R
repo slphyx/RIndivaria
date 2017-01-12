@@ -80,9 +80,9 @@ Model.SompobPNAS2011 <- function(initn0,mu,sigma,pmf,KZ=c(6,26,27,38,39,44),conc
     # outform   -->  {time, log10(circulating)}
   if(is.null(npoint)){
   clrObj<-clrCallStatic("TreatWithArtesunate.Models","SompobPNAS2011",as.double(10^(initn0)),as.double(mu),
-                       as.double(sigma),as.double(pmf),as.double(rb),as.double(re),as.double(tb),
-                       as.double(te),as.double(sb),as.double(se),as.double(xm),as.double(ym),as.double(ke),
-                       as.double(everyH),as.double(ndrug),as.double(gammar),as.double(gammat),as.double(gammas),
+                       as.double(sigma),as.double(pmf),as.integer(rb),as.integer(re),as.integer(tb),
+                       as.integer(te),as.integer(sb),as.integer(se),as.double(xm),as.double(ym),as.double(ke),
+                       as.integer(everyH),as.integer(ndrug),as.double(gammar),as.double(gammat),as.double(gammas),
                        as.double(ec50r),as.double(ec50t),as.double(ec50s),
                        as.double(emaxr),as.double(emaxt),as.double(emaxs),as.double(Tconst),as.integer(runmax),as.integer(outform))
 
@@ -96,9 +96,9 @@ Model.SompobPNAS2011 <- function(initn0,mu,sigma,pmf,KZ=c(6,26,27,38,39,44),conc
 
   }else if(!is.null(npoint)){
     clrObj<-clrCallStatic("TreatWithArtesunate.Models","SompobPNAS2011",as.double(10^(initn0)),as.double(mu),
-                          as.double(sigma),as.double(pmf),as.double(rb),as.double(re),as.double(tb),
-                          as.double(te),as.double(sb),as.double(se),as.double(xm),as.double(ym),as.double(ke),
-                          as.double(everyH),as.double(ndrug),as.double(gammar),as.double(gammat),as.double(gammas),
+                          as.double(sigma),as.double(pmf),as.integer(rb),as.integer(re),as.integer(tb),
+                          as.integer(te),as.integer(sb),as.integer(se),as.double(xm),as.double(ym),as.double(ke),
+                          as.integer(everyH),as.integer(ndrug),as.double(gammar),as.double(gammat),as.double(gammas),
                           as.double(ec50r),as.double(ec50t),as.double(ec50s),
                           as.double(emaxr),as.double(emaxt),as.double(emaxs),as.double(Tconst),as.integer(npoint))
 
